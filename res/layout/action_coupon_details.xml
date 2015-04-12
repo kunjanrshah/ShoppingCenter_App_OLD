@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/White" >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:background="@drawable/title_tab" >
+	    <Button
+	        android:id="@+id/btn_Back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/BACK"
+	        android:textColor="@color/White"
+	        android:background="@drawable/btn_zuruck"
+	        android:layout_marginLeft="5dip" />
+	    <TextView
+	        android:id="@+id/txt_titleBar_displayIn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/SHOPS"
+	        android:layout_weight="1"
+	        android:textStyle="bold"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textSize="18dip"
+	        android:textColor="@color/White" />
+	    <Button
+	        android:id="@+id/btn_Home"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="5dip"
+	        android:background="@drawable/home" />
+	</LinearLayout>
+	<ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:scrollbars="vertical">
+	    <LinearLayout
+	        	android:id="@+id/linear_Details" 
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="fill_parent"
+	        	android:orientation="vertical"
+	        	android:background="@color/White">
+	        	<ImageView
+	        	    android:id="@+id/img_coupon_aswell_shop"
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="230dip"
+	        	    android:background="@drawable/img_default" />
+	        	<View 
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:background="@drawable/breakline"/>
+	        	<TextView
+	        	    android:id="@+id/txt_shop_title"
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:textColor="@color/black"
+	        	    android:textSize="22dip"
+	        	    android:textStyle="bold"
+	        	    android:singleLine="true"
+	        	    android:text="Couponzeitung"
+	        	    android:layout_marginLeft="7dip"
+	        	    android:layout_marginRight="7dip"
+	        	    android:layout_marginTop="10dip" />
+	        	<TextView
+	        	    android:id="@+id/txt_shop_description"
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:textColor="@color/coupon_font_color"
+	        	    android:textSize="15dip"
+	        	    android:textStyle="bold"
+	        	    android:singleLine="false"
+	        	    android:layout_marginLeft="7dip"
+	        	    android:layout_marginRight="7dip" />
+	    </LinearLayout>
+	</ScrollView>
+</LinearLayout>

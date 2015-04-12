@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background" >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1" >
+	    
+	</LinearLayout>
+<!-- 	this is for first row of Strating icon 	 -->
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="bottom|center_horizontal" >
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+	        <Button
+	            android:id="@+id/btn_shop"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/startbuttons_shops" />
+	       	<TextView 
+	       	    android:layout_width="match_parent"
+	       	    android:layout_height="match_parent"
+	       	    android:gravity="center"
+	       	    android:text="@string/SHOPS"
+	       	    android:textColor="@color/black"
+	       	    android:textStyle="bold"
+	       	    android:layout_marginTop="10dip" />
+	    </LinearLayout>
+	    
+	     <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:orientation="vertical"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip" >
+	        <Button
+	            android:id="@+id/btn_action"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/startbuttons_aktionen"
+	            android:layout_marginBottom="10dip" />
+	       	<TextView 
+	       	    android:layout_width="match_parent"
+	       	    android:layout_height="match_parent"
+	       	    android:gravity="center"
+	       	    android:text="@string/ACTIONS"
+	       	    android:textColor="@color/black"
+	       	    android:textStyle="bold" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+	        <Button
+	            android:id="@+id/btn_Info"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/startbuttons_info" />
+	       	<TextView 
+	       	    android:layout_width="match_parent"
+	       	    android:layout_height="match_parent"
+	       	    android:gravity="center"
+	       	    android:text="@string/INFO"
+	       	    android:textColor="@color/black"
+	       	    android:textStyle="bold"
+	       	    android:layout_marginTop="10dip" />
+	    </LinearLayout>
+	</LinearLayout>
+	
+<!-- 	    this is for second row of Statring Icon  -->
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="center" >
+	    	<LinearLayout 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center" >
+			    <LinearLayout
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical" >
+			        <Button
+			            android:id="@+id/btn_event"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/startbuttons_events" />
+			       	<TextView 
+			       	    android:layout_width="match_parent"
+			       	    android:layout_height="match_parent"
+			       	    android:gravity="center"
+			       	    android:text="@string/EVENTS"
+			       	    android:textColor="@color/black"
+			       	    android:layout_marginTop="10dip"
+			       	    android:textStyle="bold" />
+			    </LinearLayout>
+			    
+			     <LinearLayout 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:gravity="center"
+				        android:orientation="vertical"
+				        android:layout_marginTop="10dip"
+				        android:layout_marginLeft="20dip"
+				        android:layout_marginRight="20dip" >
+			        <Button
+			            android:id="@+id/btn_children"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/startbuttons_kinderpara" />
+			       	<TextView 
+			       	    android:layout_width="match_parent"
+			       	    android:layout_height="wrap_content"
+			       	    android:gravity="center"
+			       	    android:text="@string/CHILDRENSPARADISE"
+			       	    android:layout_marginTop="10dip"
+			       	    android:textStyle="bold"
+			       	    android:textColor="@color/black" />
+			    </LinearLayout>
+			    
+			    <LinearLayout
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:orientation="vertical" >
+			        <Button
+			            android:id="@+id/btn_special"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/startbuttons_specials" />
+			       	<TextView 
+			       	    android:layout_width="match_parent"
+			       	    android:layout_height="match_parent"
+			       	    android:gravity="center"
+			       	    android:text="@string/SPECIALS"
+			       	    android:textColor="@color/black"
+			       	    android:layout_marginTop="10dip"
+			       	    android:textStyle="bold" />
+			    </LinearLayout>
+			</LinearLayout>	
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/footer_color"
+	    android:layout_gravity="bottom"
+	    android:gravity="right">
+	   	<ImageView
+	   	    android:id="@+id/img_info_impresum"
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:src="@drawable/info"
+	   	    android:layout_marginRight="5dip" />
+	</LinearLayout>
+</LinearLayout>

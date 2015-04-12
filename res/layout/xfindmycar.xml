@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/White" >
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:background="@drawable/title_tab" >
+	    <Button
+	        android:id="@+id/btn_Back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/BACK"
+	        android:textColor="@color/White"
+	        android:layout_marginLeft="5dip"
+	        android:background="@drawable/btn_zuruck" />
+	    <TextView
+	        android:id="@+id/txt_titleBar_displayIn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/FINDMYCAR"
+	        android:layout_weight="1"
+	        android:textStyle="bold"
+	        android:gravity="center"
+	        android:textSize="18dip"
+	        android:textColor="@color/White" />
+	    <Button
+	        android:id="@+id/btn_Home"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="5dip"
+	        android:background="@drawable/home" />
+	</LinearLayout>
+	
+   	<ScrollView 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:scrollbars="vertical">
+   	    <LinearLayout 
+   	        	android:layout_width="fill_parent"
+   	    		android:layout_height="fill_parent"
+   	    		android:orientation="vertical" >
+   				<LinearLayout 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:orientation="horizontal">
+				   	    	<TextView 
+				   	    	    android:layout_width="fill_parent"
+				   	    	    android:layout_height="match_parent"
+				   	    	    android:gravity="center_vertical"
+				   	    	    android:layout_weight="1"
+				   	    	    android:text="P7"
+				   	    	    android:textColor="@color/black"
+				   	    	    android:textStyle="bold"
+				   	    	    android:textSize="16dip"
+				   	    	    android:layout_marginLeft="10dip" />
+				   	    	<CheckBox
+				   	    	    android:id="@+id/chk_P7"
+				   	    	    android:layout_width="wrap_content"
+				   	    	    android:layout_height="wrap_content"
+				   	    	    android:layout_marginRight="10dip"/>
+				   	</LinearLayout>
+				   	<View 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="2dip"
+				   	    android:background="@color/line_break_color"/>
+				<!--	1	 -->
+				 <LinearLayout 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:orientation="horizontal">
+				   	    	<TextView 
+				   	    	    android:layout_width="fill_parent"
+				   	    	    android:layout_height="match_parent"
+				   	    	    android:gravity="center_vertical"
+				   	    	    android:layout_weight="1"
+				   	    	    android:text="P6 / Ebence C"
+				   	    	    android:textColor="@color/black"
+				   	    	    android:textStyle="bold"
+				   	    	    android:textSize="16dip"
+				   	    	    android:layout_marginLeft="10dip"  />
+				   	    	<CheckBox
+				   	    	    android:id="@+id/chk_P6"
+				   	    	    android:layout_width="wrap_content"
+				   	    	    android:layout_height="wrap_content"
+				   	    	    android:layout_marginRight="10dip"/>
+				   	</LinearLayout>
+				   	<View 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="2dip"
+				   	    android:background="@color/line_break_color"/>
+				   	<!--	2  -->
+					 <LinearLayout 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:orientation="horizontal">
+				   	    	<TextView 
+				   	    	    android:layout_width="fill_parent"
+				   	    	    android:layout_height="match_parent"
+				   	    	    android:gravity="center_vertical"
+				   	    	    android:layout_weight="1"
+				   	    	    android:text="P5"
+				   	    	    android:textColor="@color/black"
+				   	    	    android:textStyle="bold"
+				   	    	    android:textSize="16dip"
+				   	    	    android:layout_marginLeft="10dip"  />
+				   	    	<CheckBox
+				   	    	    android:id="@+id/chk_P5"
+				   	    	    android:layout_width="wrap_content"
+				   	    	    android:layout_height="wrap_content"
+				   	    	    android:layout_marginRight="10dip"/>
+				   	</LinearLayout>
+				   	<View 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="2dip"
+				   	    android:background="@color/line_break_color"/>
+				   	<!--	3	 -->
+				 <LinearLayout 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:orientation="horizontal">
+				   	    	<TextView 
+				   	    	    android:layout_width="fill_parent"
+				   	    	    android:layout_height="match_parent"
+				   	    	    android:gravity="center_vertical"
+				   	    	    android:layout_weight="1"
+				   	    	    android:text="P4 / Ebene B"
+				   	    	    android:textColor="@color/black"
+				   	    	    android:textStyle="bold"
+				   	    	    android:textSize="16dip"
+				   	    	    android:layout_marginLeft="10dip"  />
+				   	    	<CheckBox
+				   	    	    android:id="@+id/chk_P4"
+				   	    	    android:layout_width="wrap_content"
+				   	    	    android:layout_height="wrap_content"
+				   	    	    android:layout_marginRight="10dip"/>
+				   	</LinearLayout>
+				   	<View 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="2dip"
+				   	    android:background="@color/line_break_color"/>
+				   	<!--	4	 -->
+				 <LinearLayout 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:orientation="horizontal">
+				   	    	<TextView 
+				   	    	    android:layout_width="fill_parent"
+				   	    	    android:layout_height="match_parent"
+				   	    	    android:gravity="center_vertical"
+				   	    	    android:layout_weight="1"
+				   	    	    android:text="P3"
+				   	    	    android:textColor="@color/black"
+				   	    	    android:textStyle="bold"
+				   	    	    android:textSize="16dip"
+				   	    	    android:layout_marginLeft="10dip"  />
+				   	    	<CheckBox
+				   	    	    android:id="@+id/chk_P3"
+				   	    	    android:layout_width="wrap_content"
+				   	    	    android:layout_height="wrap_content"
+				   	    	    android:layout_marginRight="10dip"/>
+				   	</LinearLayout>
+				   	<View 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="2dip"
+				   	    android:background="@color/line_break_color"/>
+				   	<!--	5	 -->
+				 <LinearLayout 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:orientation="horizontal">
+				   	    	<TextView 
+				   	    	    android:layout_width="fill_parent"
+				   	    	    android:layout_height="match_parent"
+				   	    	    android:gravity="center_vertical"
+				   	    	    android:layout_weight="1"
+				   	    	    android:text="P2 / Ebene A"
+				   	    	    android:textColor="@color/black"
+				   	    	    android:textStyle="bold"
+				   	    	    android:textSize="16dip"
+				   	    	    android:layout_marginLeft="10dip"  />
+				   	    	<CheckBox
+				   	    	    android:id="@+id/chk_P2"
+				   	    	    android:layout_width="wrap_content"
+				   	    	    android:layout_height="wrap_content"
+				   	    	    android:layout_marginRight="10dip"/>
+				   	</LinearLayout>
+				   	<View 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="2dip"
+				   	    android:background="@color/line_break_color"/>
+				   	<!--	6	 -->
+				 <LinearLayout 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:orientation="horizontal">
+				   	    	<TextView 
+				   	    	    android:layout_width="fill_parent"
+				   	    	    android:layout_height="match_parent"
+				   	    	    android:gravity="center_vertical"
+				   	    	    android:layout_weight="1"
+				   	    	    android:text="P1"
+				   	    	    android:textColor="@color/black"
+				   	    	    android:textStyle="bold"
+				   	    	    android:textSize="16dip"
+				   	    	    android:layout_marginLeft="10dip"  />
+				   	    	<CheckBox
+				   	    	    android:id="@+id/chk_P1"
+				   	    	    android:layout_width="wrap_content"
+				   	    	    android:layout_height="wrap_content"
+				   	    	    android:layout_marginRight="10dip"/>
+				   	</LinearLayout>
+				   	<View 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="2dip"
+				   	    android:background="@color/line_break_color"/>
+				   	<!--	7	 -->
+				 <LinearLayout 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:orientation="horizontal">
+				   	    	<TextView 
+				   	    	    android:layout_width="fill_parent"
+				   	    	    android:layout_height="match_parent"
+				   	    	    android:gravity="center_vertical"
+				   	    	    android:layout_weight="1"
+				   	    	    android:text="P0"
+				   	    	    android:textColor="@color/black"
+				   	    	    android:textStyle="bold"
+				   	    	    android:textSize="16dip"
+				   	    	    android:layout_marginLeft="10dip"  />
+				   	    	<CheckBox
+				   	    	    android:id="@+id/chk_P0"
+				   	    	    android:layout_width="wrap_content"
+				   	    	    android:layout_height="wrap_content"
+				   	    	    android:layout_marginRight="10dip"/>
+				   	</LinearLayout>
+				   	<View 
+				   	    android:layout_width="fill_parent"
+				   	    android:layout_height="2dip"
+				   	    android:background="@color/line_break_color"/>
+   	    </LinearLayout>    
+   	</ScrollView>
+</LinearLayout>

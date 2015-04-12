@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SplashScreen_Activity!</string>
+    <string name="app_name">PMK</string>
+    
+<!--         this is for Starting Button  -->
+    <string name="SHOPS">SHOPS</string>
+    <string name="ACTIONS">AKTIONEN</string>
+    <string name="INFO">INFO</string>
+    <string name="EVENTS">EVENTS</string>
+    <string name="CHILDRENSPARADISE">  KINDER \n PARADIES</string>
+    <string name="SPECIALS">SPECIALS</string>
+    <string name="BACK">zurück</string>
+   
+<!--         this is for shoping display catagory -->
+	<string name="ABC">ABC</string>
+	<string name="BRANCH">Branche</string>
+
+	<string name="Anouk">Anouk</string>
+	
+
+<!-- 	    this is for Action -->
+	<string name="Action">AKTIONEN</string>
+	<string name="COUPONZEITUNG">Couponzeitung</string>
+	<string name="ANGEBOTE">Angebote</string>
+	
+<!-- 	    this is for main menu Info  -->
+	<string name="KONTAKT">Kontakt</string>
+	<string name="OPENING">Öffnungszeiten</string>
+	<string name="ANFAHRT">Anfahrt</string>
+	<string name="FACTS">Facts</string>
+	<string name="FUNDBURO">Fundbüro</string>
+	<string name="GESCHE">Geschenkgutscheine</string>
+	
+<!-- 	    this is used for settings	 -->
+	<string name="SETTINGS">SETTINGS</string>
+	<string name="SETTINGS_PUSHNOTIFICATION">Push Notification</string>
+	
+	    
+	<string name="IMPRESSUM_IMPLEMENTATION">Umsetzung</string>
+	
+<!-- 	    this is used for find a car -->
+	<string name="FINDMYCAR">Find my Car</string>
+	<string name="Add">hinzufügen</string>
+	
+	<string name="SHOPINGLIST"> Einkaufsliste </string>
+	<string name="SHOPING_FAIRPARK">Einkaufsliste wie bei Messepark APP</string>
+	
+	<string name="INFO_FUNDBURO">Fundbüro</string>
+	<string name="INFO_Geschenkgutscheine">Geschenkgutscheine</string>
+	<string name="INFO_FACTS">Facts</string>
+	<string name="INFO_OPENNING">Öffnungszeiten	</string>
+	
+<!-- 	    this is used for info Anfahrt -->
+	<string name="INFO_ANFAHRT_PKW">PKW und Zweirad </string>
+	<string name="INFO_ANFAHRT_OV">ÖV</string>
+	<string name="INFO_ANFAHRT_LAGEPLAN">Lageplan</string>
+	<string name="INFO_AHFAHRT_GOOGLEMAP">Google Maps</string>
+	<string name="INFO_ANFAHRT_AUTO">Auto</string>
+	<string name="INFO_ANFAHRT_AUTOBAHANAUSFAHRT">Autobahanausfahrt</string>
+	<string name="INFO_ANFAHRT_ADDRESS">Address</string>
+	<string name="INFO_ANFAHRT_ZWEIRAD">Zweirad/Roller</string>
+	    
+<!-- 	    this is used for IMPRESSUM -->
+	<string name="IMPRESSUM_TITTLE">Impressum</string>
+	<string name="IMPRESSUM_KONZEPPTION_GESTALTUNG">Konzeption &amp; Gestaltung</string>
+	<string name="IMPRESSUM_KONZEPPTION_UMSETZUNG">Konzeption &amp; Umsetzung</string>
+	<string name="IMPRESSUM_KONZEPT">Konzept</string>
+	<string name="IMPRESSUM_PHILIPP">Philipp Arnold</string>
+	<string name="IMPRESSUM_PILATUSMARKT_KRIENS">Pilatusmarkt Kriens</string>
+	<string name="IMPRESSUM_KATARZYNA_WINEK">Katarzyna Winek</string>
+	<string name="IMPRESSUM_VISUELLE_KOMMUNIKATION">Visuelle Kommunikation</string>
+	<string name="IMPRESSUM_GESTALTUNG">Gestaltung</string>
+	<string name="IMPRESSUM_CONTACT_EMAIL">contact@kwinek.com</string>
+	<string name="IMPRESSUM_WEBSITEID">www.kwinek.com</string>
+	
+	
+	
+<!-- 	    this is used for kinderpearadies -->
+	<string name="KINDER_INFO_KONTAKT">Info &amp; Kontakt</string>
+	<string name="KINDER_TITLE">Kinderparadies</string>
+	<string name="KINDER_DETAILS">Liebe Eltern Gerne betreuen wir Ihre Kinder ab 3 Jahren bis Ende des 7. Lebensjahres. Sie finden uns auf der Ebene A zwischen Parkinglift und Coiffeur Varibelle.</string>
+	<string name="KINDER_TIME">Öffnungszeiten</string>
+	<string name="KINDER_TIMEDETAIL">Montag bis Freitag	9.00 - 18.00 Uhr \n Samstag		9.00 - 16.00 Uhr</string>
+	<string name="KINDER_PRICE_TITLE">Preise</string>
+	<string name="KINDER_PRICE_DETAILS">1 Stunde	Fr. 3.00 \n 2 Stunden	Fr. 5.00 \n3 Stunden	Fr. 7.00</string>
+	<string name="KINDER_KONTACT_TITLE">Kontakt</string>
+	<string name="KINDER_KONTACT_DESC">Kinderparadies Bärehöli \n
+		Ringstrasse 19 \n
+		6010 Kriens \n
+		+41(0)41 348 22 33 \n
+		kidi@pilatusmarkt.ch </string>
+</resources>

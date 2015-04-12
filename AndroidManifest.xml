@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhl.shoppingCenter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="4" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".SplashScreen_Activity"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainMenu_Activity"
+            	android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Shops_Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Shop_Category_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Shop_details_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Shop_BranchvisList_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity><activity android:name="dhl.shopingcenter.tab.Tab_Shop_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shopingcenter.tab.Tab_Info_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shopingcenter.tab.Tab_Lageplan_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_action.MainMenu_Action_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_action.Action_Coupon_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_action.Action_AngebotDetails_Activity" android:screenOrientation="portrait"></activity><activity android:name="dhl.shoppingcenter.main_menu_action.Action_Abgebot_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MainMenu_INFO_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_events.MainMenu_Events_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_specials.MM_Specials_FindmyCar_Activity" android:screenOrientation="portrait"></activity><activity android:name="dhl.shopingcenter.main_menu_kinderparadies.MainMenu_Kinderperadies_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_specials.MainMenu_Specials_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="MainMenu_Settings_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_events.MM_EventList_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_events.MM_Event_inDetail_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shopingcenter.main_menu_kinderparadies.MM_Kinderperadies_ProgramList_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shopingcenter.main_menu_kinderparadies.MM_Kinderperadies_ProgrammDetails_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_specials.MM_Special_ShopingList_Activity"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_specials.MM_Special_AddShoppingLIst_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MM_INFO_Kontakt_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MM_INFO_Fundburo" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MM_INFO_Geschenkgutscheine" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MM_INFO_Facts" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MM_INFO_Anfahrt_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MM_INFO_Anfahrt_PKW_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MM_INFO_Opening_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.main_menu_info.MM_INFO_Anfahrt_Lageplan_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shopingcenter.main_menu_kinderparadies.MM_Kinderparadies_Info_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.impresum.MainMenu_Impresum_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="dhl.shoppingcenter.impresum.MM_Impresum_Gestaltung" android:screenOrientation="portrait"></activity>
+        <service android:name="BackgroundService"></service><activity android:name="dhl.shoppingcenter.impresum.MM_Impresum_Umsetzung" android:screenOrientation="portrait"></activity>
+        <activity android:name="dhl.shoppingcenter.impresum.MM_Impresum_impresum" android:screenOrientation="portrait"></activity>
+        <receiver android:name="GetNotifyBroadcastReceiver"></receiver>
+        <activity android:name="PushNotification_Activity"></activity>
+        <activity android:name="com.dhl.zoomable.MultizoomActivity" android:screenOrientation="portrait"></activity>
+        
+        
+        
+        
+    </application>
+
+</manifest>

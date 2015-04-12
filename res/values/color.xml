@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="White">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="footer_color">#3f4140</color>
+	<color name="line_break_color">#eaeaea</color>
+	<color name="sub_title_fontColor">#7d7d7d</color>
+	<color name="coupon_font_color">#7c7c7c</color>
+	<color name="kinder_detail_font_color">#444444</color>
+</resources>

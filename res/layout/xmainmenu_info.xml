@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/White" >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:background="@drawable/title_tab" >
+	    <Button
+	        android:id="@+id/btn_Back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/BACK"
+	        android:textColor="@color/White"
+	        android:background="@drawable/btn_zuruck"
+	        android:layout_marginLeft="5dip" />
+	    <TextView
+	        android:id="@+id/txt_titleBar_displayIn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/INFO"
+	        android:layout_weight="1"
+	        android:textStyle="bold"
+	        android:textSize="18dip"
+	        android:gravity="center"
+	        android:textColor="@color/White" />
+	    <Button
+	        android:id="@+id/btn_Home"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="5dip"
+	        android:background="@drawable/home" />
+	</LinearLayout>
+	
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/white_title_tab"
+	    android:gravity="center" >
+	    <TextView
+	        android:id="@+id/txt_Kontakt"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:text="@string/KONTAKT"
+	        android:textColor="@color/black"
+	        android:textStyle="bold"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="10dip" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/arrow"
+	        android:layout_marginRight="5dip" />
+	</LinearLayout>
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dip"
+	    android:background="@color/line_break_color"/>
+  	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/white_title_tab"
+	    android:gravity="center" >
+	    <TextView
+	        android:id="@+id/txt_Opening"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:text="@string/OPENING"
+	        android:textColor="@color/black"
+	        android:textStyle="bold"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="10dip" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/arrow"
+	        android:layout_marginRight="5dip" />
+	</LinearLayout>
+	
+  	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dip"
+	    android:background="@color/line_break_color"/>
+  	
+  	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/white_title_tab"
+	    android:gravity="center" >
+	    <TextView
+	        android:id="@+id/txt_anfart"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:text="@string/ANFAHRT"
+	        android:textColor="@color/black"
+	        android:textStyle="bold"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="10dip" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/arrow"
+	        android:layout_marginRight="5dip" />
+	</LinearLayout>
+
+  	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dip"
+	    android:background="@color/line_break_color"/>
+  	    
+  	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/white_title_tab"
+	    android:gravity="center" >
+	    <TextView
+	        android:id="@+id/txt_fact"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:text="@string/FACTS"
+	        android:textColor="@color/black"
+	        android:textStyle="bold"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="10dip" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/arrow"
+	        android:layout_marginRight="5dip" />
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dip"
+	    android:background="@color/line_break_color"/>
+	    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/white_title_tab"
+	    android:gravity="center" >
+	    <TextView
+	        android:id="@+id/txt_Fundburo"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:text="@string/FUNDBURO"
+	        android:textColor="@color/black"
+	        android:textStyle="bold"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="10dip" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/arrow"
+	        android:layout_marginRight="5dip" />
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dip"
+	    android:background="@color/line_break_color"/>
+	    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/white_title_tab"
+	    android:gravity="center" >
+	    <TextView
+	        android:id="@+id/txt_Geschenk_giftCertificates"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:text="@string/GESCHE"
+	        android:textColor="@color/black"
+	        android:textStyle="bold"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="10dip" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/arrow"
+	        android:layout_marginRight="5dip" />
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dip"
+	    android:background="@color/line_break_color"/>
+	    
+</LinearLayout>

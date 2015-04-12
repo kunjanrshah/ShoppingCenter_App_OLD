@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/White" >
+
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:background="@drawable/title_tab" >
+	    <Button
+	        android:id="@+id/btn_Back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn_zuruck"
+	        android:layout_marginLeft="5dip"
+	        android:textColor="@color/White"
+	        android:text="@string/BACK" />
+	    <TextView
+	        android:id="@+id/txt_titleBar_displayIn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/IMPRESSUM_KONZEPPTION_GESTALTUNG"
+	        android:textSize="18dip"
+	        android:layout_weight="1"
+	        android:textStyle="bold"
+	        android:gravity="center"
+	        android:textColor="@color/White" />
+	    <Button
+	        android:id="@+id/btn_Home"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="5dip"
+	        android:background="@drawable/home" />
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/blank_bg3"
+        android:orientation="vertical"
+        android:layout_margin="15dip"
+        android:layout_weight="1">
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/IMPRESSUM_KONZEPT"
+	        android:layout_marginTop="15dip"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="18dip"
+	        android:textStyle="bold"
+	        android:textColor="@color/black"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="17dip"
+	        android:textColor="@color/sub_title_fontColor"
+	        android:textStyle="bold"
+	        android:text="@string/IMPRESSUM_PHILIPP"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dip"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="16dip"
+	        android:text="@string/IMPRESSUM_PILATUSMARKT_KRIENS"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="17dip"
+	        android:textColor="@color/sub_title_fontColor"
+	        android:textStyle="bold"
+	        android:text="@string/IMPRESSUM_KATARZYNA_WINEK"/>
+        <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="16dip"
+	        android:text="@string/IMPRESSUM_VISUELLE_KOMMUNIKATION"/>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/blank_bg3"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginBottom="5dip"
+        android:layout_weight="1" >
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/IMPRESSUM_GESTALTUNG"
+	        android:layout_marginTop="15dip"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="20dip"
+	        android:textStyle="bold"
+	        android:textColor="@color/black" />
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/IMPRESSUM_KATARZYNA_WINEK"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="18dip"
+	        android:textColor="@color/sub_title_fontColor"
+	        android:textStyle="bold" />
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/IMPRESSUM_VISUELLE_KOMMUNIKATION"
+	        android:textSize="16dip"
+	        android:layout_marginTop="5dip"
+	        android:layout_marginLeft="15dip" />
+	    <TextView
+	        android:id="@+id/txt_emailID"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/IMPRESSUM_CONTACT_EMAIL"
+	        android:textSize="16dip"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginLeft="15dip"/>
+        <TextView
+            android:id="@+id/txt_webURL"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/IMPRESSUM_WEBSITEID"
+	        android:textSize="16dip"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginLeft="15dip"/>
+    </LinearLayout>
+</LinearLayout>
